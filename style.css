@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background : rgb(252, 251, 251) url() center top / cover no-repeat fixed;
+    height: 100vh;
+    font-weight: bold;
+}
+
+header {
+    background-color:black;
+    margin-bottom: 50px;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white
+}
+
+header > h1 {
+    font-size: 60px;
+}
+
+pre {
+    white-space:pre-line;
+    margin: 0px 0px 0px 20px;
+}
+
+p {
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+main {
+    font-size: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.imgb1 {
+    background: green url(images/abelhinha-fundo.jpg) center center / cover no-repeat fixed;
+    color: white;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fundoprecto {
+    background-color: rgba(24, 23, 23, 0.603);
+    width: 50%;
+    max-width: 380px;
+    min-width: 400px;
+    padding: 20px;
+    margin: 27px 20px 0px 0px;
+}
+
+.imgb2 {
+    background: green url(images/levros-fundo.jpg) center center / cover no-repeat fixed;
+    color:white;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a:hover {
+    color: yellow;
+}
+
+
